@@ -1,18 +1,18 @@
 server:
-  port: 8010
+  port: 4814
 spring:
   application:
     name: account
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    name: orderingsystem
+    name: GtMgSystem
     url: jdbc:mysql://localhost:3306/orderingsystem?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: "074813"
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:4813/eureka/
   instance:
     prefer-ip-address: true
 mybatis:
