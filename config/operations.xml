@@ -2,7 +2,7 @@ server:
   port: 4817
 spring:
   application:
-    name: account
+    name: operations
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     name: GtMgSystem
